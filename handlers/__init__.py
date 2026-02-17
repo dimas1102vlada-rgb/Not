@@ -26,7 +26,7 @@ from . import rate
 from . import recipe_book
 from . import reputation
 from . import rules
-from . import select
+from . import custom_selec
 from . import stock_market
 from . import stock_market_list
 from . import synonyms

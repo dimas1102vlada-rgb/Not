@@ -1,7 +1,6 @@
 from aiogram import types
 from dispatcher import dp, bot
 import sqlite3
-from .db_check import CheckDB
 from aiogram.types import InputFile, ContentType, Message, ReplyKeyboardRemove, \
     ReplyKeyboardMarkup, KeyboardButton, \
     InlineKeyboardMarkup, InlineKeyboardButton
@@ -230,4 +229,5 @@ async def process_ckb_command(message: types.Message):
             except:
                 await message.answer(f"ID пользователя: <code>{message.from_user.id}</code>", parse_mode="HTML")
         except:
+
             pass

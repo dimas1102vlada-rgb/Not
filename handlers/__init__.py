@@ -34,3 +34,4 @@ from . import transfer
 from . import upgrades
 from . import user_profile
 from . import valutes
+from . import CheckDB
